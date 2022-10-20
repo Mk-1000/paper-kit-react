@@ -53,19 +53,20 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
-        <SectionButtons />
-        <SectionNavbars />
-        <SectionNavigation />
-        <SectionProgress />
-        <SectionNotifications />
-        <SectionTypography />
+        
+       
+       
         <SectionJavaScript />
-        <SectionCarousel />
+        
+        {/*
+        <SectionButtons/>
+        <SectionNavbars />
         <SectionNucleoIcons />
         <SectionDark />
-        <SectionLogin />
-        <SectionExamples />
-        <SectionDownload />
+        <SectionLogin /> 
+        */}
+        
+        
         <DemoFooter />
       </div>
     </>

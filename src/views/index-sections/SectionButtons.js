@@ -62,7 +62,7 @@ function SectionButtons() {
   });
   return (
     <>
-      <div className="section section-buttons">
+      <div className="section section-buttons" style={{ backgroundColor: '#0B1011',}}>
         <Container>
           <div className="title">
             <h2>Basic Elements</h2>

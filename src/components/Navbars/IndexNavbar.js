@@ -31,6 +31,13 @@ import {
   Container
 } from "reactstrap";
 
+function handleScroll() {
+  window.scroll({
+    top: document.body.offsetHeight,
+    left: 0, 
+    behavior: 'smooth',
+  });
+}
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
@@ -66,12 +73,17 @@ function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand
+          href="#"
+          
+          onClick={() => {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+          }}
+          
             data-placement="bottom"
-            href="/index"
-            target="_blank"
-            title="Coded by Creative Tim"
+            
+            title="Coded by hamdi MK"
           >
-            Paper Kit React
+            YouDow
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -91,21 +103,11 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
+           
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
-                target="_blank"
-                title="Follow us on Twitter"
-              >
-                <i className="fa fa-twitter" />
-                <p className="d-lg-none">Twitter</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/profile.php?id=100074427026214"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -116,18 +118,18 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.linkedin.com/in/mokni-hamdi-mk712/"
                 target="_blank"
-                title="Follow us on Instagram"
+                title="Follow us on linkedin"
               >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
+                <i className="fa fa-linkedin" />
+                <p className="d-lg-none">linkedin</p>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial/paper-kit-react?ref=creativetim"
+                href="https://github.com/Mk-1000"
                 target="_blank"
                 title="Star on GitHub"
               >
@@ -135,22 +137,15 @@ function IndexNavbar() {
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
-                target="_blank"
-              >
-                <i className="nc-icon nc-book-bookmark" /> Documentation
-              </NavLink>
-            </NavItem>
+            
             <NavItem>
               <Button
                 className="btn-round"
                 color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-index-navbar"
-                target="_blank"
+                onClick={handleScroll}
               >
-                <i className="nc-icon nc-spaceship"></i> Upgrade to Pro
+                {/* <i className="nc-icon nc-note-03"></i> */}
+                Youtube download
               </Button>
             </NavItem>
           </Nav>

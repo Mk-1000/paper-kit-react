@@ -125,7 +125,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/profile.php?id=100074427026214"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -136,18 +136,18 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.linkedin.com/in/mokni-hamdi-mk712/"
                 target="_blank"
-                title="Follow us on Instagram"
+                title="Follow us on linkedin"
               >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
+                <i className="fa fa-linkedin" />
+                <p className="d-lg-none">linkedin</p>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://github.com/Mk-1000"
                 target="_blank"
                 title="Star on GitHub"
               >
@@ -159,8 +159,8 @@ function ExamplesNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-examples-navbar"
-                target="_blank"
+                //href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-examples-navbar"
+                //target="_blank"
               >
                 <i className="nc-icon nc-spaceship"></i> Upgrade to Pro
               </Button>

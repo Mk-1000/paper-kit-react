@@ -24,14 +24,14 @@ import { Row, Container } from "reactstrap";
 
 function DemoFooter() {
   return (
-    <footer className="footer footer-black footer-white">
+    <footer className="footer footer-black footer-white" style={{ backgroundColor: '#0B1011',}}>
       <Container>
         <Row>
           <nav className="footer-nav">
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=pkr-footer"
+                  //href="https://www.creative-tim.com?ref=pkr-footer"
                   target="_blank"
                 >
                   Creative Tim
@@ -39,7 +39,7 @@ function DemoFooter() {
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com/?ref=pkr-footer"
+                  //href="http://blog.creative-tim.com/?ref=pkr-footer"
                   target="_blank"
                 >
                   Blog
@@ -47,7 +47,7 @@ function DemoFooter() {
               </li>
               <li>
                 <a
-                  href="https://www.creative-tim.com/license?ref=pkr-footer"
+                  //href="https://www.creative-tim.com/license?ref=pkr-footer"
                   target="_blank"
                 >
                   Licenses
@@ -58,7 +58,7 @@ function DemoFooter() {
           <div className="credits ml-auto">
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              <i className="fa fa-heart heart" /> by Hamdi MK
             </span>
           </div>
         </Row>
