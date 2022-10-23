@@ -1,34 +1,18 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.c20cf018.css",
-    "main.js": "/test/static/js/main.cc72905b.js",
-    "static/media/antoine-barres.jpg": "/test/static/media/antoine-barres.b79a8a7849bafe9e5d54.jpg",
-    "static/media/clouds.png": "/test/static/media/clouds.3c700c1313cc1cd3d3c5.png",
-    "static/media/login-image.jpg": "/test/static/media/login-image.21e8ba3f9dca3c346851.jpg",
-    "static/media/joshua-stannard.jpg": "/test/static/media/joshua-stannard.a16f281cc99a02795dd7.jpg",
-    "static/media/soroush-karimi.jpg": "/test/static/media/soroush-karimi.620dc9e92af6bac885fe.jpg",
-    "static/media/ilya-yakover.jpg": "/test/static/media/ilya-yakover.751c23c0dc4ff39577cf.jpg",
-    "static/media/federico-beccari.jpg": "/test/static/media/federico-beccari.ab3a31e7758f490adca7.jpg",
-    "static/media/fabio-mangione.jpg": "/test/static/media/fabio-mangione.488bc249dffdae3556c6.jpg",
-    "static/media/uriel-soberanes.jpg": "/test/static/media/uriel-soberanes.b741f54e9ccbd071a751.jpg",
-    "static/media/daniel-olahh.jpg": "/test/static/media/daniel-olahh.77c0ffac60f9218de675.jpg",
-    "static/media/profile-page.png": "/test/static/media/profile-page.3a626caf205d1143f192.png",
-    "static/media/landing-page.png": "/test/static/media/landing-page.80158096b63fb4a837e1.png",
-    "static/media/clem-onojeghuo-2.jpg": "/test/static/media/clem-onojeghuo-2.d16702ce00aa38f275c0.jpg",
-    "static/media/ayo-ogunseinde-2.jpg": "/test/static/media/ayo-ogunseinde-2.f4af8f2c98f6968c5ae9.jpg",
-    "static/media/joe-gardner-2.jpg": "/test/static/media/joe-gardner-2.09841708956117e93a7b.jpg",
-    "static/media/clem-onojeghuo-3.jpg": "/test/static/media/clem-onojeghuo-3.83003f446b7372176b72.jpg",
-    "static/media/kaci-baum-2.jpg": "/test/static/media/kaci-baum-2.9b929eea6c1ef2b4dbb4.jpg",
-    "static/media/creative-tim-white-slim2.png": "/test/static/media/creative-tim-white-slim2.905f34519ac80dc30948.png",
-    "static/media/erik-lucatero-2.jpg": "/test/static/media/erik-lucatero-2.d09715abe0463c58d6be.jpg",
-    "static/media/nucleo-icons.eot": "/test/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
-    "static/media/nucleo-icons.ttf": "/test/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
-    "static/media/nucleo-icons.woff": "/test/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
-    "static/media/nucleo-icons.woff2": "/test/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
-    "index.html": "/test/index.html"
+    "main.css": "/paper-kit-react/static/css/main.db531cf0.css",
+    "main.js": "/paper-kit-react/static/js/main.7cd6da64.js",
+    "static/media/antoine-barres.jpg": "/paper-kit-react/static/media/antoine-barres.b79a8a7849bafe9e5d54.jpg",
+    "static/media/clouds.png": "/paper-kit-react/static/media/clouds.3c700c1313cc1cd3d3c5.png",
+    "static/media/creative-tim-white-slim2.png": "/paper-kit-react/static/media/creative-tim-white-slim2.905f34519ac80dc30948.png",
+    "static/media/nucleo-icons.eot": "/paper-kit-react/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
+    "static/media/nucleo-icons.ttf": "/paper-kit-react/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
+    "static/media/nucleo-icons.woff": "/paper-kit-react/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
+    "static/media/nucleo-icons.woff2": "/paper-kit-react/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
+    "index.html": "/paper-kit-react/index.html"
   },
   "entrypoints": [
-    "static/css/main.c20cf018.css",
-    "static/js/main.cc72905b.js"
+    "static/css/main.db531cf0.css",
+    "static/js/main.7cd6da64.js"
   ]
 }
