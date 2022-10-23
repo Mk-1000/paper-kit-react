@@ -14,5 +14,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Route path="/index" render={(props) => <Index {...props} />} />
+    <Redirect to="/index" />
   </BrowserRouter>
 );
