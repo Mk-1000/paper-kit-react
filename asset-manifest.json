@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/paper-kit-react/static/css/main.db531cf0.css",
-    "main.js": "/paper-kit-react/static/js/main.5a0f9a0c.js",
+    "main.js": "/paper-kit-react/static/js/main.b6c3c916.js",
     "static/media/antoine-barres.jpg": "/paper-kit-react/static/media/antoine-barres.b79a8a7849bafe9e5d54.jpg",
     "static/media/clouds.png": "/paper-kit-react/static/media/clouds.3c700c1313cc1cd3d3c5.png",
     "static/media/creative-tim-white-slim2.png": "/paper-kit-react/static/media/creative-tim-white-slim2.905f34519ac80dc30948.png",
@@ -13,6 +13,6 @@
   },
   "entrypoints": [
     "static/css/main.db531cf0.css",
-    "static/js/main.5a0f9a0c.js"
+    "static/js/main.b6c3c916.js"
   ]
 }
