@@ -6,11 +6,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-
-// index sections
-
-import SectionJavaScript from "views/SectionJavaScript.js";
-
+import SectionCarousel from "./SectionCursol";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -25,7 +21,7 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main" >
-      <SectionJavaScript />
+      <SectionCarousel />
       <DemoFooter />
       </div>
     </>

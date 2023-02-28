@@ -102,7 +102,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger {
   color: #fff;
-  background: #f5593d;
+  background: #1363DF;
 }
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
   color: #fff;
@@ -219,7 +219,7 @@
   background-color: #cfcfca;
 }
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-danger {
-  background-color: #f5593d;
+  background-color: #1363DF;
 }
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-warning {
   background-color: #fbc658;
@@ -395,10 +395,10 @@
   border-color: #fbc658;
 }
 .slider.slider-danger .noUi-connect {
-  background-color: #f5593d;
+  background-color: #1363DF;
 }
 .slider.slider-danger .noUi-handle {
-  border-color: #f5593d;
+  border-color: #1363DF;
 } /*!
  * Datetimepicker for Bootstrap 3
  * ! version : 4.7.14
@@ -1214,8 +1214,8 @@ fieldset[disabled] .btn-warning.active {
   border-top-color: #fff;
 }
 .btn-danger {
-  background-color: #f5593d;
-  border-color: #f5593d;
+  background-color: #1363DF;
+  border-color: #1363DF;
   color: #fff;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -1268,7 +1268,7 @@ fieldset[disabled] .btn-danger.active {
   border-color: #f33816;
 }
 .btn-danger.btn-link {
-  color: #f5593d;
+  color: #1363DF;
 }
 .btn-danger.btn-link:hover,
 .btn-danger.btn-link:focus,
@@ -1280,7 +1280,7 @@ fieldset[disabled] .btn-danger.active {
   color: #f33816 !important;
 }
 .btn-danger.btn-link .caret {
-  border-top-color: #f5593d;
+  border-top-color: #1363DF;
 }
 .btn-danger .caret {
   border-top-color: #fff;
@@ -1648,8 +1648,8 @@ fieldset[disabled] .btn-outline-warning.active {
   border-color: #fbc658;
 }
 .btn-outline-danger {
-  border-color: #f5593d;
-  color: #f5593d;
+  border-color: #1363DF;
+  color: #1363DF;
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -1661,9 +1661,9 @@ fieldset[disabled] .btn-outline-warning.active {
 .btn-outline-danger:active:hover,
 .btn-outline-danger.active:focus,
 .show > .btn-outline-danger.dropdown-toggle {
-  background-color: #f5593d !important;
+  background-color: #1363DF !important;
   color: rgba(255, 255, 255, 0.8);
-  border-color: #f5593d !important;
+  border-color: #1363DF !important;
 }
 .btn-outline-danger:hover .caret,
 .btn-outline-danger:focus .caret,
@@ -1703,7 +1703,7 @@ fieldset[disabled] .btn-outline-danger.focus,
 fieldset[disabled] .btn-outline-danger:active,
 fieldset[disabled] .btn-outline-danger.active {
   background-color: rgba(0, 0, 0, 0);
-  border-color: #f5593d;
+  border-color: #1363DF;
 }
 .btn-outline-neutral {
   border-color: #fff;
@@ -2027,20 +2027,20 @@ fieldset[disabled] .btn-neutral.active {
 }
 .has-danger .form-control {
   background-color: #ffc0a4;
-  border: 1px solid #f5593d;
-  color: #f5593d;
+  border: 1px solid #1363DF;
+  color: #1363DF;
 }
 .has-danger .form-control.form-control-danger {
   padding-right: 2.5em !important;
 }
 .has-danger .form-control:focus {
   background-color: #fff;
-  border: 1px solid #f5593d;
+  border: 1px solid #1363DF;
 }
 .form-control + .form-control-feedback {
   border-radius: 6px;
   font-size: 14px;
-  color: #f5593d;
+  color: #1363DF;
   font-size: 0.8rem;
   position: absolute;
   top: 100%;
@@ -2065,7 +2065,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 .has-error .form-control-feedback,
 .has-error .control-label {
-  color: #f5593d;
+  color: #1363DF;
 }
 .has-success .form-control-feedback,
 .has-success .control-label {
@@ -2093,7 +2093,7 @@ fieldset[disabled] .btn-neutral.active {
   background-color: #fff;
 }
 .has-error .form-control:focus + .input-group-text {
-  color: #f5593d;
+  color: #1363DF;
 }
 .has-success .form-control:focus + .input-group-text {
   color: #6bd098;
@@ -2277,7 +2277,7 @@ textarea.form-control {
   background-color: #fbc658;
 }
 .progress-bar-danger {
-  background-color: #f5593d;
+  background-color: #1363DF;
 }
 .badge {
   padding: 0.4em 0.9em;
@@ -2308,7 +2308,7 @@ textarea.form-control {
   background-color: #fbc658;
 }
 .badge-danger {
-  background-color: #f5593d;
+  background-color: #1363DF;
 }
 .badge-default {
   background-color: #66615b;
@@ -2320,9 +2320,9 @@ textarea.form-control {
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
   background-color: transparent;
-  border: 2px solid #f5593d;
+  border: 2px solid #1363DF;
   border-radius: 20px;
-  color: #f5593d;
+  color: #1363DF;
   height: 36px;
   margin: 0 2px;
   min-width: 36px;
@@ -2454,8 +2454,8 @@ textarea.form-control {
 .pagination-danger > li:first-child > span,
 .pagination-danger > li:last-child > a,
 .pagination-danger > li:last-child > span {
-  border: 2px solid #f5593d;
-  color: #f5593d;
+  border: 2px solid #1363DF;
+  color: #1363DF;
 }
 .nav-pills-danger > li.active > a,
 .nav-pills-danger > li.active > a:hover,
@@ -2469,8 +2469,8 @@ textarea.form-control {
 .pagination-danger > li.active > span:hover,
 .pagination-danger > li.active > a:focus,
 .pagination-danger > li.active > span:focus {
-  background-color: #f5593d !important;
-  border-color: #f5593d !important;
+  background-color: #1363DF !important;
+  border-color: #1363DF !important;
   color: #fff;
 }
 .nav-text,
@@ -2533,7 +2533,7 @@ textarea.form-control {
   color: #fbc658;
 }
 .nav-red > li.active a {
-  color: #f5593d;
+  color: #1363DF;
 }
 .nav-text {
   margin: 0 0 10px 0;
@@ -2586,7 +2586,7 @@ textarea.form-control {
 }
 .nav-pills-danger .nav-item.show .nav-link,
 .nav-pills-danger .nav-link.active {
-  background-color: #f5593d !important;
+  background-color: #1363DF !important;
 }
 .pagination > li > a:hover,
 .pagination > li > a:focus,
@@ -2597,14 +2597,14 @@ textarea.form-control {
 .pagination > li.active > span:hover,
 .pagination > li.active > a:focus,
 .pagination > li.active > span:focus {
-  background-color: #f5593d;
-  border-color: #f5593d;
+  background-color: #1363DF;
+  border-color: #1363DF;
   color: #fff;
 }
 .page-item.active .page-link {
-  background-color: #f5593d;
+  background-color: #1363DF;
   color: white;
-  border-color: #f5593d;
+  border-color: #1363DF;
 }
 .nav-pills .nav-link {
   border-radius: 0;
@@ -2776,7 +2776,7 @@ blockquote small {
 }
 .text-danger,
 .text-danger:hover {
-  color: #f5593d !important;
+  color: #1363DF !important;
 }
 .glyphicon {
   line-height: 1;
@@ -2924,7 +2924,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #fbc658;
 }
 .ct-red {
-  color: #f5593d;
+  color: #1363DF;
 }
 .pagination .page-item .page-link .fa {
   width: auto;
@@ -3052,7 +3052,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-color: #fbc658;
 }
 .label-danger {
-  background-color: #f5593d;
+  background-color: #1363DF;
 }
 .label-default {
   background-color: #66615b;
@@ -3703,11 +3703,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #fff !important;
 }
 .nav-pills-danger .nav-item .nav-link {
-  border: 1px solid #f5593d !important;
-  color: #f5593d !important;
+  border: 1px solid #1363DF !important;
+  color: #1363DF !important;
 }
 .nav-pills-danger .nav-item .nav-link.active {
-  border: 1px solid #f5593d !important;
+  border: 1px solid #1363DF !important;
   color: #fff !important;
 }
 .nav-pills-info .nav-item .nav-link {
@@ -4720,7 +4720,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   top: 36%;
   left: 44%;
   font-size: 65px;
-  color: #f5593d;
+  color: #1363DF;
   padding: 1px;
 }
 .section-nucleo-icons .icons-container i:nth-child(7) {
@@ -4779,13 +4779,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #fbc658;
 }
 .icon-danger {
-  color: #f5593d;
+  color: #1363DF;
 }
 .icon-neutral {
   color: #fff;
 }
 .carousel-control {
-  background-color: #f5593d;
+  background-color: #1363DF;
   border-radius: 50%;
   opacity: 1;
   text-shadow: none;
@@ -4842,7 +4842,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border: 0 none;
 }
 .carousel-indicators .active {
-  background-color: #f5593d;
+  background-color: #1363DF;
 }
 .page-carousel:hover .carousel-control.right,
 .page-carousel:hover .carousel-control.left {
@@ -7324,7 +7324,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 }
 .slider.slider-danger .noUi-connect,
 .slider.slider-danger.noUi-connect {
-  background-color: #f5593d;
+  background-color: #1363DF;
 } /*!
 * https://github.com/YouCanBookMe/react-datetime
 */

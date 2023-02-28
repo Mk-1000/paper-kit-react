@@ -64,8 +64,18 @@ function IndexNavbar() {
             data-placement="bottom"
             
             title="Coded by hamdi MK"
-          >
+
+            >
+
+            <img
+            alt="..."
+            className="creative-tim-logo"
+            src={require("assets/img/youdow-logo.png")}
+            />
+            <span className="ml-auto mr-auto text-center" style={{ fontSize: "1.3rem" }}>
             YouDow
+            </span>
+             
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -119,17 +129,18 @@ function IndexNavbar() {
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
             </NavItem>
-            
+
             <NavItem>
               <Button
                 className="btn-round"
-                color="danger"
+                color="info"
                 onClick={handleScroll}
               >
                 {/* <i className="nc-icon nc-note-03"></i> */}
                 Youtube download
               </Button>
             </NavItem>
+
           </Nav>
         </Collapse>
       </Container>

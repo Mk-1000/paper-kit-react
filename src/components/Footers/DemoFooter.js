@@ -10,9 +10,9 @@ function DemoFooter() {
         <Row>
           <nav className="footer-nav">
             <ul>
-              <li>
+              {/* <li>
                 <a
-                  //href="https://www.creative-tim.com?ref=pkr-footer"
+                  href="https://www.creative-tim.com?ref=pkr-footer"
                   target="_blank"
                 >
                   Creative Tim
@@ -20,15 +20,15 @@ function DemoFooter() {
               </li>
               <li>
                 <a
-                  //href="http://blog.creative-tim.com/?ref=pkr-footer"
+                  href="http://blog.creative-tim.com/?ref=pkr-footer"
                   target="_blank"
                 >
                   Blog
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
-                  //href="https://www.creative-tim.com/license?ref=pkr-footer"
+                  href="https://www.creative-tim.com/license?ref=pkr-footer"
                   target="_blank"
                 >
                   Licenses
@@ -37,9 +37,9 @@ function DemoFooter() {
             </ul>
           </nav>
           <div className="credits ml-auto">
-            <span className="copyright">
+            <span className="copyright" style={{color: '#F5F5F5' , fontSize: '15px'}}>
               © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Hamdi MK
+              <i className="fa fa-heart heart" style={{color: "#1363DF"}} /> by Hamdi MK
             </span>
           </div>
         </Row>

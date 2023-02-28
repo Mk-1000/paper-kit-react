@@ -3,7 +3,6 @@ import React from "react";
 // reactstrap components
 import { Container } from "reactstrap";
 
-// core components
 
 function IndexHeader() {
   return (
@@ -19,27 +18,19 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">YouDow</h1>
-             
+              <h1 className="presentation-title" style={{ fontSize: "4rem" }}>YouDow</h1>
             </div>
-            <h2 className="presentation-subtitle text-center">
-            Without music, life would be a mistake. </h2>
 
-          <a
-            href="https://www.linkedin.com/in/mokni-hamdi-mk712"
-            target="_blank"
-          >
-            <p className="text-center" > Friedrich Nietzsche </p>
-          </a>
-            
-            
-            
+            <div className="title-brand">
+              <h3 className=" text-center" style={{color:"#DFF6FF" ,fontFamily:"sans-serif",fontSize: "2rem" }}> You press the button and youdow the rest. </h3>
+            </div>
+              
           </Container>
         </div>
         <div
           className="moving-clouds"
           style={{
-            backgroundImage: "url(" + require("assets/img/clouds.png") + ")"
+            backgroundImage: "url(" + require("assets/img/clouds2.png") + ")"
           }}
         />
         <h6 className="category category-absolute">
@@ -50,7 +41,7 @@ function IndexHeader() {
           >
             <img
               alt="..."
-              className="creative-tim-logo"
+              className="creative-tim-logo" 
               src={require("assets/img/creative-tim-white-slim2.png")}
             />
           </a>
